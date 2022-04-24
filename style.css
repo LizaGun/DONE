@@ -1,9 +1,14 @@
 img {
     border: 5px solid greenyellow;
+    width: 300px;
+    opacity: 0.8;
+    border-radius: 100px;
 }
 
 img:hover{
     border: 5px solid green;
+    width: 350px;
+    opacity: 1;
 }
 
 h1{
@@ -12,6 +17,34 @@ h1{
     color: darkgreen;
 }
 
-h2 { position: relative;
-    color: darkgreen;
+h2{
+    color: black;
 }
+
+body {
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+header{
+    position: relative;
+    top: -23px;
+    left: -15px;
+    margin-right: -40px;
+}
+
+a {
+  color: black;
+}
+
+footer{
+    background-color: greenyellow;
+    color: darkgreen;
+    margin-bottom: -55px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
